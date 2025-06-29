@@ -28,6 +28,5 @@ def rank_games(games):
 if __name__ == "__main__":
     ranking = rank_games(games)
     print(f"{'Rank':<5}{'Game':<25}{'Avg':>6}{'Rev':>6}{'Bayes':>8}")
-    print("-" *  Fifty)
     for idx, (name, avg, v, score) in enumerate(ranking, start=1):
         print(f"{idx:<5}{name:<25}{avg:6.2f}{v:6d}{score:8.3f}")

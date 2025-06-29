@@ -4,6 +4,7 @@
 games = [
     ("Arcs", 10.0, 4),
     ("Root", 9.75, 4),
+    ("Pax Pamir", 9.3, 5),
     ("Pax Porfiriana", 9.6, 4),
     ("Tigris & Eufrates", 9.5, 4),
     ("Age of Steam", 9.5, 4),
@@ -12,7 +13,6 @@ games = [
     ("The Estates", 9.67, 3),
     ("Pax Renaissance", 9.2, 4),
     ("Bus", 9.57, 3),
-    ("Pax Pamir", 9.12, 4),
     ("Twilight Struggle", 9.12, 4),
     ("Archipelago", 8.8, 5),
     ("John Company 2nd Ed", 9.33, 3),
@@ -37,4 +37,6 @@ games = [
     ("Bridges of Shangri-La", 8.67, 3),
     ("Rise & Fall", 8.67, 3),
     ("Concordia", 8.25, 4),
+    ("Ra", 8.33, 3),
+    ("Lords of Vegas", 9.0, 3),
 ]
