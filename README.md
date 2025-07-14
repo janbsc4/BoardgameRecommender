@@ -22,6 +22,7 @@ If you know how bayesian weighted ranking works, you can also change the *C* and
 ## Getting Started
 
 `git clone https://github.com/janbsc4/BoardgameRecommender.git`
+
 `cd BoardgameRecommender`
 
 Then, edit the *gameslist.py* to your liking, adding games you're interested in. To run the script just:
