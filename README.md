@@ -21,7 +21,7 @@ If you know how bayesian weighted ranking works, you can also change the *C* and
 
 ## Getting Started
 
-You need Git and Python installed on your machine.
+You need Git and Python installed on your machine. The commands below are for Mac Terminal and zshell (default Mac). Adapt them if you are using a different system.
 
 Then, from the Terminal, clone the repository:
 
@@ -44,5 +44,3 @@ python3 rank.py
 The result should look something like this:
 
 ![screenshot](/Screenshot.png)
-
-These commands are for Mac and zshell. Adapt them if you are on a different system.
