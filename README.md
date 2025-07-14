@@ -19,9 +19,9 @@ games = [
 ```
 
 
-`game_name` is the name of the boardgame
-`average_score` is the average score of the reviewers that you trust
-`reviews_nbr` is number of reviews used to calculate the average score
+- `game_name` is the name of the boardgame
+- `average_score` is the average score of the reviewers that you trust
+- `reviews_nbr` is number of reviews used to calculate the average score
 
 Once you have the data for your games as a you can paste it into the *gameslist.py* file.
 
