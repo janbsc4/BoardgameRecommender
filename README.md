@@ -21,11 +21,11 @@ games = [
 
 - `game_name` is the name of the boardgame
 - `average_score` is the average score of the reviewers that you trust
-- `reviews_nbr` is number of reviews used to calculate the average score
+- `reviews_nbr` is number of reviews used to calculate the `average_score`
 
-Once you have the data for your games as a you can paste it into the *gameslist.py* file.
+Once you have the data for your games in this format, you can paste it into the *gameslist.py* file.
 
-If you know how bayesian weighted ranking works, you can also change the *C* and *m* variables in *rank.py*.
+If you know how bayesian weighted rankings work, you can also change the *C* and *m* variables in *rank.py* to your liking.
 
 
 ## 2) Running the script
