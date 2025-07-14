@@ -1,6 +1,4 @@
-# gameslist.py
-
-# List of games as (name, average, reviews)
+# List of games as (game name, average score, review number)
 games = [
     ("Arcs", 10.0, 4),
     ("Root", 9.75, 4),
