@@ -6,12 +6,9 @@ The input is a list of games and their review scores.
 
 ## 1) Edit the Games List
 
- If you don't know what reviewers match your taste or how to get their review scores, I recommend watching [this video](https://www.youtube.com/watch?v=QFwa6limKSc). 
+ If you don't know what reviewers match your taste or how to get their review scores, I recommend watching [this video](https://www.youtube.com/watch?v=QFwa6limKSc). What I do once I have the GeekBuddy Game Ratings is to take a screenshot and let an LLM transcribe it into the format below.
 
- What I do once I have the GeekBuddy Game Ratings is to take a screenshot and let an LLM transcribe it into a python tuple in the format shown in *gameslist.py*. Once you have that you can edit the *gameslist.py* file to add your games data.
-
-
-The list uses the following format (python tuple):
+The *gameslist.py* file uses the following format (python tuple):
 
 ```python
 games = [
@@ -23,11 +20,10 @@ games = [
 
 
 `game_name` is the name of the boardgame
-
 `average_score` is the average score of the reviewers that you trust
+`reviews_nbr` is number of reviews used to calculate the average score
 
-`reviews_nbr` = number of reviews used to calculate the average score
-
+Once you have the data for your games as a you can paste it into the *gameslist.py* file.
 
 If you know how bayesian weighted ranking works, you can also change the *C* and *m* variables in *rank.py*.
 
@@ -46,7 +42,7 @@ And navigate to the project folder:
 cd BoardgameRecommender
 ```
 
-Then, edit the *gameslist.py* to your liking, adding games you're interested in. 
+Then, edit the *gameslist.py* to your liking, as described in step 1). 
 
 To run the script just:
 
