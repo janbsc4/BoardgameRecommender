@@ -43,6 +43,6 @@ python3 rank.py
 
 The result should look something like this:
 
-![screenshot][/Screenshot.png]
+![screenshot](/Screenshot.png)
 
 These commands are for Mac and zshell. Adapt them if you are on a different system.
