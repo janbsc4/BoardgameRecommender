@@ -12,7 +12,7 @@ You can edit the *gameslist.py* file to your liking. It consists of a games in t
 
 `average` = average score of the reviewers you trust
 
-`reviews = number of reviews used to calculate the average score
+`reviews` = number of reviews used to calculate the average score
 
 If you don't know what reviewers match your taste or how to get their review scores, I recommend watching [this video](https://www.youtube.com/watch?v=QFwa6limKSc). What I do once I have the GeekBuddy Game Ratings is to take a screenshot and let an LLM transcribe it into a python tuple in the format shown in *gameslist.py*.
 
@@ -23,7 +23,7 @@ If you know how bayesian weighted ranking works, you can also change the *C* and
 
 You need Git and Python installed on your machine.
 
-Then, clone the repository:
+Then, from the Terminal, clone the repository:
 
 ```
 git clone https://github.com/janbsc4/BoardgameRecommender.git
@@ -40,3 +40,5 @@ To run the script just:
 ```
 python3 rank.py
 ```
+
+These commands are for Mac and zshell. Adapt them if you are on a different system.
