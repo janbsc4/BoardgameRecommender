@@ -41,4 +41,7 @@ To run the script just:
 python3 rank.py
 ```
 
+The result should look something like this:
+[Screenshot]
+
 These commands are for Mac and zshell. Adapt them if you are on a different system.
